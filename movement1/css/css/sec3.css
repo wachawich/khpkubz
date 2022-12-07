@@ -1,0 +1,62 @@
+.sec3spdtext{
+    width: 80%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid red;
+}
+.sec3spdtext{
+    font-size: 30px;
+    font-weight: 600;
+    color: #fff;
+}
+.sec3spdbox{
+    width: 80%;
+    height: 90%;
+    border: 1px solid red;
+}
+.runway1{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    border: 1px solid red;
+}
+.distancement{
+    width: 50%;
+    height: 100%;
+    border: 1px solid red;
+}
+.dismentimg{
+    width: 100%;
+    height: 70%;
+    border: 1px solid red;
+}
+.dismenttext{
+    width: 100%;
+    height: 30%;
+    border: 1px solid red;
+}
+.distance{
+    width: 50%;
+    height: 100%;
+    border: 1px solid rgb(0, 255, 13);
+}
+.disimg{
+    width: 100%;
+    height: 70%;
+    border: 1px solid red;
+}
+.distext{
+    width: 100%;
+    height: 30%;
+    border: 1px solid red;
+}
+.runway2{
+    width: 100%;
+    height: 40%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border: 1px solid red;
+}

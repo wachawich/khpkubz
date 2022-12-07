@@ -1,0 +1,18 @@
+.sec4spdtext{
+    width: 80%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid red;
+}
+.sec4spdtext h1{
+    font-size: 30px;
+    font-weight: 600;
+    color: #fff;
+}
+.sec4spdbox{
+    width: 80%;
+    height: 90%;
+    border: 1px solid red;
+}

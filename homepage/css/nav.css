@@ -1,0 +1,259 @@
+nav{
+    width: 100%;
+    height: 6rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    z-index: 9;
+}
+nav .mylogo{
+    /* margin-left: -6%; */
+    height: 100%;
+    width: 10rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 25px;
+    font-family: Arial Black;
+    color: #fff;
+}
+
+nav .mylogo .logo{
+    background-size: cover;
+    position: relative;
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav .mylogo .logo img{
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 60%;
+}
+
+nav ul{
+    margin-right: -6%;
+    display: flex;
+    list-style: none;
+    width: 32rem;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Noto Sans Thai', sans-serif;
+    color: #fff;
+    padding: 0;
+    font-weight: 600;
+}
+nav ul li{
+    cursor: pointer;
+    color: #fff;
+    font-weight: 600;
+    font-size: 25px;
+}
+.nav_log{
+    display: flex;
+    font-size: 18px;
+    width: 12rem;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav_login{
+    padding: 3px 10px;
+    border: 2px solid #fff;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.nav_logout{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px 7px;
+    border-radius: 6px;
+    border: 2px solid #fff;
+    cursor: pointer;
+    color: #cc00ff;
+    background: linear-gradient(255deg,#ffffff,#ffffff);
+}
+
+@media only screen and (max-height:750px) and (max-width:430px){  /* 8plus */
+    nav{
+        width: 100%;
+        height: 6rem;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        position: fixed;
+        z-index: 9;
+        margin-top: 2rem;
+        /* border: 1px solid red; */
+    }
+    nav .mylogo{
+        margin-left: 5%;
+        height: 100%;
+        width: 8rem;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-size: 20px;
+        font-family: Arial Black;
+        color: #fff;
+    }
+    
+    nav .mylogo .logo{
+        background-size: cover;
+        position: relative;
+        width: 30%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        opacity: 0;
+        z-index: -1;
+    }
+    nav .mylogo .logo img{
+        background-size: cover;
+        position: relative;
+        width: 100%;
+        height: 60%;
+    }
+    
+    nav ul{
+        /* margin-right: -6%; */
+        display: flex;
+        list-style: none;
+        width: 80%;
+        height: 100%;
+        justify-content: space-around;
+        align-items: center;
+        font-family: 'Noto Sans Thai', sans-serif;
+        color: #fff;
+        padding: 0;
+        font-weight: 600;
+        /* border: 1px solid red; */
+    }
+    nav ul li{
+        cursor: pointer;
+        color: #fff;
+        font-weight: 600;
+        font-size: 10px;
+        z-index: -1;
+        opacity: 0;
+    }
+    .nav_log{
+        display: flex;
+        font-size: 10px;
+        width: 8rem;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .nav_login{
+        padding: 3px 10px;
+        border: 2px solid #fff;
+        border-radius: 6px;
+        cursor: pointer;
+    }
+    .nav_logout{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 3px 7px;
+        border-radius: 6px;
+        border: 2px solid #fff;
+        cursor: pointer;
+        color: #cc00ff;
+        background: linear-gradient(255deg,#ffffff,#ffffff);
+    }
+}
+@media only screen and (max-height:900px) and (min-height:751px) and (max-width:430px){   /* 12pro หน้าจอยาวๆ */
+    nav{
+        width: 100%;
+        height: 6rem;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        position: fixed;
+        z-index: 9;
+        margin-top: 2rem;
+        /* border: 1px solid red; */
+    }
+    nav .mylogo{
+        margin-left: 5%;
+        height: 100%;
+        width: 8rem;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-size: 20px;
+        font-family: Arial Black;
+        color: #fff;
+    }
+    
+    nav .mylogo .logo{
+        background-size: cover;
+        position: relative;
+        width: 30%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        opacity: 0;
+        z-index: -1;
+    }
+    nav .mylogo .logo img{
+        background-size: cover;
+        position: relative;
+        width: 100%;
+        height: 60%;
+    }
+    
+    nav ul{
+        /* margin-right: -6%; */
+        display: flex;
+        list-style: none;
+        width: 80%;
+        height: 100%;
+        justify-content: space-around;
+        align-items: center;
+        font-family: 'Noto Sans Thai', sans-serif;
+        color: #fff;
+        padding: 0;
+        font-weight: 600;
+        /* border: 1px solid red; */
+    }
+    nav ul li{
+        cursor: pointer;
+        color: #fff;
+        font-weight: 600;
+        font-size: 10px;
+        z-index: -1;
+        opacity: 0;
+    }
+    .nav_log{
+        display: flex;
+        font-size: 10px;
+        width: 8rem;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .nav_login{
+        padding: 3px 10px;
+        border: 2px solid #fff;
+        border-radius: 6px;
+        cursor: pointer;
+    }
+    .nav_logout{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 3px 7px;
+        border-radius: 6px;
+        border: 2px solid #fff;
+        cursor: pointer;
+        color: #cc00ff;
+        background: linear-gradient(255deg,#ffffff,#ffffff);
+    }
+}
