@@ -24,7 +24,9 @@
                 <div class="h1text">
                     <h1>ยินดีต้อนรับเข้าสู่บทเรียนการเคลื่อนที่แนวตรง</h1>
                 </div>
-                <div class="present_text"><h3>ในบทเรียนนี้จะเริ่มจาก ความเร็ว ระยะทาง และเวลานะครับ โดยจะมีตัวอย่างการเคลื่อนที่ และโจทย์สนุกๆให้ลองเล่น ไปเรียนกันได้เลย</h3></div>
+                <div class="present_text">
+                    <h3>ในบทเรียนนี้จะเริ่มจาก ความเร็ว ระยะทาง และเวลานะครับ โดยจะมีตัวอย่างการเคลื่อนที่ และโจทย์สนุกๆให้ลองเล่น ไปเรียนกันได้เลย</h3>
+                </div>
             </div>
             <div class="table_text">
                 <img src="movement1/png/tabel_movement.png" alt="">
@@ -76,21 +78,31 @@
             <div class="sec3spdbox">
                 <div class="runway1">
                     <div class="distance">
-                        <div class="disimg"></div>
+                        <div class="disimg">
+                            <img src="movement1/png/mm_distance1.png" alt="">
+                        </div>
                         <div class="distext">
                             <p>ระยะทาง สรุปง่ายๆก็คือ เป็นสิ่งที่ใช้ในการเคลื่อนที่จากจุดเริ่มต้นไปจนถึงจุดสิ้นสุด เช่น รถคนนึงเคลื่อนที่จากจุด A ไปยังจุด B โดยไม่ใช้ทางลัด ดังรูป</p>
                         </div>
                     </div>
                     <div class="distancement">
-                        <div class="dismentimg"></div>
+                        <div class="dismentimg">
+                            <img src="movement1/png/mm_distance2.png" alt="">
+                        </div>
                         <div class="dismenttext">
                             <p>แต่เมื่อเป็นการกระจัด จะเป็นการเดินทางโดยใช้ทางลัด หรือก็คือเดินทางจากจุดแรกไปจุดสุดท้ายโดยใช้ระยะที่น้อยที่สุด ดังรูป</p>
                         </div>
                     </div>
                 </div>
                 <div class="runway2">
-                    ใส่ให้ตัวละครเคลื่อนที่
-                    ระยะทาง การกระจัด
+                    <div class="runway2_avartar">
+                        <img src="movement1/png/backhuman.png" alt="">
+                    </div>
+                    <img src="movement1/png/roads.png" alt="" id="imgroad">
+                    <div class="runway2_btnbox">
+                        <button>ระยะทาง</button>
+                        <button>การกระจัด</button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -103,25 +115,105 @@
         <div class="section5">
             <div class="sec5spdtext">
                 <h1>ความเร่งและอัตราเร่ง</h1>
-            </div>
-            <div class="sec5spdbox">
                 <div class="sec5spdbox_text">
                     <p>ความเร่ง มีอยู่ 3ประเภทให้ศึกษาก็คือ ความเร่งที่เป็น0 ความเร่งที่เป็นบวก และความเร่งที่ติดลบ 
                       <br>  ซึ่งความหมายที่ทำให้เข้าใจง่ายที่สุดคือการเปลี่ยนแปลงความเร็วในหนึ่งหน่วยเวลา ดูตามรูปได้เลยครับ </p>
                     
                 </div>
+            </div>
+            <div class="sec5spdbox">
                 <div class="sec5spdbox1">
-                    <img src="movement1/png/sky3.png" alt="">
+                    <div class="sec5spdbox1_text"> <!-- ddddddd -->
+                        <h2>
+                            สมมุติว่าเด็กสาวคนนี้กำลัง วิ่ง ด้วย ความเร็ว 2m/s
+                        </h2>
+                        <h4>
+                            เพื่อนๆจะเห็นได้ว่าเด็กสาวคนนี้กำลังวิ่งแบบไปเรื่อยๆไม่เร็วขึ้นไม่ช้าลง <span>แบบนี้เรียกว่า v คงที่ หรือความเร็วคงที่</span> 
+                            <br>ซึ่งการเคลื่อนที่แบบนี้ <span>a หรือ ความเร่งนั้นจะต้องเป็น 0 นั่นเอง</span>
+                        </h4>
+                    </div>
+                    <div class="sec5spdbox1_img">   <!-- sssssssssssssss -->
+                        <div class="sec5spd_timer_1">
+                            <ul>
+                                <li>t = 1</li>
+                                <li>t = 2s</li>
+                                <li>t = 3s</li>
+                                <li>t = 4s</li>
+                                <li>t = 5s</li>
+                                <li>t = 6s</li>
+                            </ul>
+                        </div>
+                        <img src="movement1/png/running.png.png" alt="">
+                    </div>
+                    <div class="sec5spd_btn">
+                        <button>เมื่อ a = 0</button>
+                    </div>
+                    <!-- <div class="skysec5_1">
+                        <img src="movement1/png/sky3.png" alt="">
+                    </div> -->
                 </div>
                 <div class="sec5spdbox2">
-                    <img src="movement1/png/sky3.png" alt="">
+                    <div class="sec5spdbox2_text">
+                        <h2>
+                            สมมุติว่า  พ่อหนุ่มสเก็ตบอร์ดคนนี้กำลัง เล่นสเก็ต ด้วย ความเร็วต้น 2m/s
+                        </h2>
+                        <h4>
+                            เพื่อนๆจะเห็นได้ว่าพ่อหนุ่มคนนี้ค่อยๆเร็วขึ้นเรื่อยๆ จากความเร็ว 2m/s ผ่านไป 4วินาที ทำไมความเร็วเพิ่มขึ้น? 
+                            <br>ซึ่งเหตุผลก็คือ<span>การเคลื่อนที่นี้มีความเร่ง ก็คือ a > 0 หรือความเร่งมากกว่า 0 </span>จึงทำให้มีความเร็วเพิ่มขึ้นนั่นเอง
+                        </h4>
+                    </div>
+                    <div class="sec5spdbox2_img">
+                        <div class="sec5spd_timer_1">
+                            <ul>
+                                <li>t = 1</li>
+                                <li>t = 2s</li>
+                                <li>t = 3s</li>
+                                <li>t = 4s</li>
+                                <li>t = 5s</li>
+                                <li>t = 6s</li>
+                            </ul>
+                        </div>
+                        <img src="movement1/png/running2.png.png" alt="">
+                    </div>
+                    <div class="sec5spd_btn">
+                        <button>เมื่อ a > 0</button>
+                    </div>
                 </div>
                 <div class="sec5spdbox3">
-                    <img src="movement1/png/sky3.png" alt="">
+                    <div class="sec5spdbox3_text">
+                        <h2>
+                            สมมุติว่าพ่อหนุ่มคนนี้เคลื่อนที่ด้วยความเร็วคงที่ 2m/s
+                        </h2>
+                        <h4>
+                            แต่เพื่อนๆจะเห็นได้ว่าพ่อหนุ่มคนนี้เคลื่อนที่ด้วยความเร็วคงที่ (a=0 , v คงที่) <span>แต่ในช่วงหนึ่งความเร็วของเขาก็ลดลง</span> 
+                            <br>ซึ่งเป็นเพราะว่า<span>มีความเร่งมาเกี่ยวข้อง</span> แต่เป็นความเร่งที่<span>ติดลบ</span>หรือ a < 0 จึงทำให้ความเร็วลดลงนั่นเอง
+                            <br>หรืออาจจะทำให้การเคลื่อนที่นั้นถอยหลังก็ได้
+                        </h4>
+                    </div>
+                    <div class="sec5spdbox3_img">
+                        <div class="sec5spd_timer_1">
+                            <ul>
+                                <li>t = 1</li>
+                                <li>t = 2s</li>
+                                <li>t = 3s</li>
+                                <li>t = 4s</li>
+                                <li>t = 5s</li>
+                                <li>t = 6s</li>
+                            </ul>
+                        </div>
+                        <img src="movement1/png/car.png" alt="">
+                    </div>
+                    <div class="sec5spd_btn">
+                        <button>เมื่อ a < 0</button>
+                    </div>
+                    <!-- <div class="skysec5_1">
+                        <img src="movement1/png/sky3.png" alt="">
+                    </div> -->
                 </div>
             </div>
         </div>
     </section>
+    <script src="/movement1/css/css/apispd.js"></script>
     <footer></footer>
 </body>
 </html>

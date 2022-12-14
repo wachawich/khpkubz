@@ -5,7 +5,7 @@
 body{
     background: linear-gradient(255deg,#991dff,#aa43ff,#aa43ff,#ff84f7);
     width: 100%;
-    height: 200rem;
+    height: 250rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -57,21 +57,35 @@ section{
     align-items: center;
     border: 1px solid red;
 }
-.section5{
-    width: 80%;
-    height: 50rem;
-    font-family: 'Noto Sans Thai', sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid red;
-}
-.section6{
-    width: 80%;
-    height: 50rem;
-    font-family: 'Noto Sans Thai', sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid red;
+@media only screen and (max-width:750px) and (max-width:430px){
+    .section2{
+        width: 100%;
+        height: 60rem;
+        font-family: 'Noto Sans Thai', sans-serif;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid red;
+    }
+    .section3{
+        width: 100%;
+        height: 60rem;
+        font-family: 'Noto Sans Thai', sans-serif;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid red;
+    }
+    .section4{
+        width: 100%;
+        height: 60rem;
+        font-family: 'Noto Sans Thai', sans-serif;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid red;
+    }
 }

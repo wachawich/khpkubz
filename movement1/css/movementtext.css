@@ -1,15 +1,19 @@
 .movement_text{
     color: #fff;
-    height: 20%;
+    height: 25%;
     width: 100%;
-    display: contents;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     font-size: 30px;
-    border: 1px solid red;
     font-family: 'Noto Sans Thai', sans-serif;
 }
 .movement_text p{
     font-size: 20px;
     font-family: 'Noto Sans Thai', sans-serif;
+    margin-left: 2rem;
+    margin-right: 2rem;
 }
 .movement_content{
     height: 80%;
@@ -17,7 +21,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid red;
 }
 .content_movement_card{
     width: 15rem;
@@ -36,8 +39,151 @@
                 0 10px 10px rgba(0, 0, 0, 0.1);
 }
 .content_movement_card img{
-    width: 190%;
+    width: 150%;
     height: 100%;
     position: relative;
-    left: 10%;
+}
+@media only screen and (max-height:750px) and (max-width:430px){
+    .movement_text{
+        color: #fff;
+        height: 25%;
+        width: 100%;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 25px;
+        font-family: 'Noto Sans Thai', sans-serif;
+    }
+    .movement_text p{
+        color: #fff;
+        font-size: 18px;
+        text-align: center;
+        font-family: 'Noto Sans Thai', sans-serif;
+    }
+    .movement_content{
+        height: 60%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .content_movement_card{
+        width: 19rem;
+        height: 12rem;
+        border-radius: 20px;
+        margin: 0px 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: rgb(0, 0, 0);
+        overflow: hidden;
+        background-size: cover;
+        background-color: #fff;
+        font-family: 'Noto Sans Thai', sans-serif;
+        box-shadow: 0 -10px 10px rgba(255, 255, 255, 0.05),
+                    0 10px 10px rgba(0, 0, 0, 0.1);
+    }
+    .content_movement_card img{
+        width: 100%;
+        height: 200%;
+        top: 10%;
+        position: relative;
+    }
+    #card_mm1_3{
+            width: 19rem;
+            height: 10rem;
+            border-radius: 20px;
+            margin: 0px 60px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: rgb(0, 0, 0);
+            overflow: hidden;
+            background-size: cover;
+            background-color: #fff;
+            font-family: 'Noto Sans Thai', sans-serif;
+            box-shadow: 0 -10px 10px rgba(255, 255, 255, 0.05),
+                        0 10px 10px rgba(0, 0, 0, 0.1);
+        
+    }
+    #card_mm2_3{
+        width: 19rem;
+        height: 10rem;
+        border-radius: 20px;
+        margin: 0px 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: rgb(0, 0, 0);
+        overflow: hidden;
+        background-size: cover;
+        background-color: #fff;
+        margin-top: 1rem;
+        font-family: 'Noto Sans Thai', sans-serif;
+        box-shadow: 0 -10px 10px rgba(255, 255, 255, 0.05),
+                    0 10px 10px rgba(0, 0, 0, 0.1);
+    
+}
+#card_mm3_3{
+    width: 19rem;
+    height: 10rem;
+    border-radius: 20px;
+    margin: 0px 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    overflow: hidden;
+    background-size: cover;
+    background-color: #fff;
+    font-family: 'Noto Sans Thai', sans-serif;
+    box-shadow: 0 -10px 10px rgba(255, 255, 255, 0.05),
+                0 10px 10px rgba(0, 0, 0, 0.1);
+
+}
+}
+@media only screen and (max-height:900px) and (min-height:751px) and (max-width:430px){
+    .movement_text{
+        color: #fff;
+        height: 25%;
+        width: 100%;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 30px;
+        font-family: 'Noto Sans Thai', sans-serif;
+    }
+    .movement_content{
+        height: 60%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .content_movement_card{
+        width: 19rem;
+        height: 13rem;
+        border-radius: 20px;
+        margin: 0px 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: rgb(0, 0, 0);
+        overflow: hidden;
+        background-size: cover;
+        background-color: #fff;
+        font-family: 'Noto Sans Thai', sans-serif;
+        box-shadow: 0 -10px 10px rgba(255, 255, 255, 0.05),
+                    0 10px 10px rgba(0, 0, 0, 0.1);
+    }
+    .content_movement_card img{
+        width: 190%;
+        height: 100%;
+        position: relative;
+        left: 10%;
+    }
 }

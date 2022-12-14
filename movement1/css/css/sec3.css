@@ -4,7 +4,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 .sec3spdtext{
     font-size: 30px;
@@ -14,43 +14,74 @@
 .sec3spdbox{
     width: 80%;
     height: 90%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 .runway1{
     width: 100%;
     height: 60%;
     display: flex;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 .distancement{
     width: 50%;
     height: 100%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 .dismentimg{
     width: 100%;
     height: 70%;
-    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dismentimg img{
+    width: 90%;
+    height: 90%;
+    position: relative;
 }
 .dismenttext{
     width: 100%;
     height: 30%;
-    border: 1px solid red;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+.dismenttext p{
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
 }
 .distance{
     width: 50%;
     height: 100%;
-    border: 1px solid rgb(0, 255, 13);
+    /* border: 1px solid rgb(0, 255, 13); */
 }
 .disimg{
     width: 100%;
     height: 70%;
-    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+.disimg img{
+    width: 90%;
+    height: 90%;
+    position: relative;
 }
 .distext{
     width: 100%;
     height: 30%;
-    border: 1px solid red;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+.distext p{
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
 }
 .runway2{
     width: 100%;
@@ -58,5 +89,215 @@
     justify-content: center;
     align-items: center;
     display: flex;
-    border: 1px solid red;
+    flex-direction: column;
+}
+.runway2 img{
+    width: 100%;
+    height: 80%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: relative;
+    border-radius: 30px;
+    /* box-shadow: 0 -10px 10px rgba(255, 255, 255, 0.05),
+                    0 10px 10px rgba(0, 0, 0, 0.1); */
+}
+#imgroad{
+    box-shadow: 0 -10px 10px rgba(255, 255, 255, 0.05),
+                    0 10px 10px rgba(0, 0, 0, 0.1);
+}
+.runway2_btnbox button{
+    padding: 2px 5px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 0.4rem;
+    z-index: 11;
+    position: relative;
+    cursor: pointer;
+    font-family: 'Noto Sans Thai', sans-serif;
+}
+.runway2_avartar{
+    position: absolute;
+    width: 70%;
+    height: 40%;
+    z-index: 9;
+}
+.runway2_avartar img{
+    z-index: 99;
+    width:20%;
+    height: 60%;
+    left: 30%;
+    top: 20%;
+    position: absolute;
+    /* animation: runners 10s linear infinite; */
+}
+@keyframes runners {
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        left: 30%;
+    }
+    60%{
+        left: 28%;
+    }
+    90%{
+        transform: translateY(-40px);
+        width: 5%;
+        height: 10%;
+        left: 45%;
+    }
+    100%{
+        transform: translateY(-40px);
+        width: 5%;
+        height: 10%;
+        left: 45%;
+    }
+}
+/* @keyframes runner {
+    0%{
+        transform: translateY(0px);
+    }
+    100%{
+        transform: translateY(-40px);
+        width: 5%;
+        height: 10%;
+        left: 45%;
+    }
+} */
+@media only screen and (max-width:750px) and (max-width:430px){
+    .sec3spdtext{
+        width: 80%;
+        height: 10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* border: 1px solid red; */
+    }
+    .sec3spdtext{
+        font-size: 30px;
+        font-weight: 600;
+        color: #fff;
+    }
+    .sec3spdtext  h1{
+        font-size: 30px;
+        font-weight: 600;
+        color: rgb(255, 241, 45);
+    }
+    .sec3spdbox{
+        width: 100%;
+        height: 90%;
+        border: 1px solid red;
+    }
+    .runway1{
+        width: 100%;
+        height: 60%;
+        display: flex;
+        flex-direction: column;
+        /* border: 1px solid red; */
+    }
+    .distancement{
+        width: 100%;
+        height: 100%;
+        /* border: 1px solid red; */
+    }
+    .dismentimg{
+        width: 100%;
+        height: 70%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .dismentimg img{
+        width: 90%;
+        height: 90%;
+        position: relative;
+    }
+    .dismenttext{
+        width: 100%;
+        height: 30%;
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* border: 1px solid red; */
+    }
+    .dismenttext p{
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+    }
+    .distance{
+        width: 100%;
+        height: 100%;
+        /* border: 1px solid rgb(0, 255, 13); */
+    }
+    .disimg{
+        width: 100%;
+        height: 70%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* border: 1px solid red; */
+    }
+    .disimg img{
+        width: 90%;
+        height: 90%;
+        position: relative;
+    }
+    .distext{
+        width: 100%;
+        height: 30%;
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* border: 1px solid red; */
+    }
+    .distext p{
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+    }
+    .runway2{
+        width: 100%;
+        height: 40%;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .runway2 img{
+        width: 100%;
+        height: 80%;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        position: relative;
+        border-radius: 30px;
+        box-shadow: 0 -10px 10px rgba(255, 255, 255, 0.05),
+                    0 10px 10px rgba(0, 0, 0, 0.1);
+    }
+    .runway2_btnbox button{
+        padding: 2px 5px;
+        border: 2px solid #fff;
+        border-radius: 10px;
+        cursor: pointer;
+        margin-top: 0.4rem;
+        font-family: 'Noto Sans Thai', sans-serif;
+    }
+    .runway2_avartar{
+        position: absolute;
+        width: 70%;
+        height: 40%;
+        z-index: 99;
+    }
+    .runway2_avartar img{
+        z-index: 99;
+        width:20%;
+        height: 60%;
+        left: 30%;
+        top: 20%;
+        position: absolute;
+        /* animation: runners 10s linear infinite; */
+    }
 }

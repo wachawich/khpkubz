@@ -5,7 +5,7 @@
 body{
     background: linear-gradient(255deg,#991dff,#aa43ff,#aa43ff,#ff84f7);
     width: 100%;
-    height: 260rem;
+    height: 360rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -14,7 +14,6 @@ body{
 section{
     width: 100%;
     height: 100%;
-    border: 1px solid red;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -28,13 +27,11 @@ section{
     justify-content: center;
     align-items: center;
     font-family: 'Noto Sans Thai', sans-serif;
-    border: 1px solid red;
 }
 .section2{
     width: 80%;
     height: 50rem;
     font-family: 'Noto Sans Thai', sans-serif;
-    border: 1px solid red;
 }
 .section3{
     width: 80%;
@@ -44,7 +41,6 @@ section{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 1px solid red;
 }
 .section4{
     width: 80%;
@@ -54,20 +50,75 @@ section{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 1px solid red;
 }
 .section5{
     width: 80%;
-    height: 50rem;
+    height: 150rem;
     font-family: 'Noto Sans Thai', sans-serif;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    border: 1px solid red;
 }
 footer{
     height: 10rem;
     background: transparent;
     width: 100%;
+}
+@media only screen and (max-width:750px) and (max-width:430px){
+    body{
+        background: linear-gradient(255deg,#991dff,#aa43ff,#aa43ff,#ff84f7);
+        width: 100%;
+        height: 310rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .section1{
+        width: 100%;
+        height: 50rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Noto Sans Thai', sans-serif;
+        border: 1px solid red;
+    }
+    .section2{
+        width: 100%;
+        height: 60rem;
+        font-family: 'Noto Sans Thai', sans-serif;
+        border: 1px solid red;
+    }
+    .section3{
+        width: 100%;
+        height: 80rem;
+        font-family: 'Noto Sans Thai', sans-serif;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid red;
+    }
+    .section4{
+        width: 100%;
+        height: 50rem;
+        font-family: 'Noto Sans Thai', sans-serif;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid red;
+    }
+    .section5{
+        width: 100%;
+        height: 60rem;
+        font-family: 'Noto Sans Thai', sans-serif;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid red;
+    }
 }

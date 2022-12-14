@@ -1,0 +1,41 @@
+.sec3_text_force{
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sec3_text_force h1{
+    font-size: 30px;
+    color: #ffffff;
+}
+.sec3_box1_force{
+    width: 80%;
+    height: 45%;
+    display: flex;
+    border: 1px  solid red;
+}
+.sec3_force_reng1{
+    width: 50%;
+    height: 100%;
+}
+.sec3_force_reng2{
+    width: 50%;
+    height: 100%;
+    border: 1px  solid red;
+}
+.sec3_box2_force{
+    width: 80%;
+    height: 45%;
+    display: flex;
+    border: 1px  solid red;
+}
+.sec3_force_reng3{
+    width: 50%;
+    height: 100%;
+}
+.sec3_force_reng4{
+    width: 50%;
+    height: 100%;
+    border: 1px  solid red;
+}

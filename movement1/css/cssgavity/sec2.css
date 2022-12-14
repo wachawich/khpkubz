@@ -1,0 +1,160 @@
+.sec2_ga_box1{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid red;
+}
+.sec2_ga_box1 h1{
+    font-size: 30px;
+    color: rgb(255, 251, 0);
+    margin-bottom: 2rem;
+    text-align: center;
+}
+.sec2_ga_box1 h3{
+    font-size: 18px;
+    color: #fff;
+    font-weight: 400;
+    text-align: center;
+}
+.sec2_ga_box2{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid red;
+}
+.timer_gavity_sec2_1{
+    width: 10%;
+    height: 100%;
+    border: 1px solid red;
+}
+.main_gravity_sec2{
+    width: 80%;
+    height: 100%;
+    border: 1px solid red;
+}
+.avartar_gravity_sec2{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.avartar_gravity_sec2 img{
+    width: 40%;
+    height: 40%;
+    top: -40%;
+    position: relative;
+    animation: gra1 5s linear infinite;
+}
+@keyframes  gra1{
+    0%{
+        top: -70%;
+    }
+    20%{
+        top: -50%;
+    }
+    30%{
+        top: -20%;
+    }
+    60%{
+        top: 30%;
+    }
+    90%{
+        top: 60%;
+    }
+    100%{
+        top: 60%;
+    }
+}
+.timer_gavity_sec2_2{
+    width: 10%;
+    height: 100%;
+    border: 1px solid red;
+}
+@media only screen and (max-width:750px) and (max-width:430px){
+    .sec2_ga_box1{
+        height: 30%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid red;
+    }
+    .sec2_ga_box1 h1{
+        font-size: 30px;
+        color: rgb(255, 251, 0);
+        margin-bottom: 2rem;
+        text-align: center;
+    }
+    .sec2_ga_box1 h3{
+        font-size: 18px;
+        color: #fff;
+        font-weight: 400;
+        text-align: center;
+    }
+    .sec2_ga_box2{
+        height: 70%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid red;
+    }
+    .timer_gavity_sec2_1{
+        width: 10%;
+        height: 100%;
+        border: 1px solid red;
+    }
+    .main_gravity_sec2{
+        width: 80%;
+        height: 100%;
+        border: 1px solid red;
+    }
+    .avartar_gravity_sec2{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+    }
+    .avartar_gravity_sec2 img{
+        width: 40%;
+        height: 40%;
+        top: -40%;
+        position: relative;
+        animation: gra1 5s linear infinite;
+    }
+    @keyframes  gra1{
+        0%{
+            top: -70%;
+        }
+        20%{
+            top: -50%;
+        }
+        30%{
+            top: -20%;
+        }
+        60%{
+            top: 30%;
+        }
+        90%{
+            top: 60%;
+        }
+        100%{
+            top: 60%;
+        }
+    }
+    .timer_gavity_sec2_2{
+        width: 10%;
+        height: 100%;
+        border: 1px solid red;
+    }
+}

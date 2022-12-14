@@ -1,0 +1,60 @@
+.sec2_text_force{
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sec2_text_force h1{
+    font-size: 30px;
+    color: #ffffff;
+}
+.sec2_box1_force{
+    width: 80%;
+    height: 45%;
+    display: flex;
+}
+.sec2_force_reng1{
+    width: 50%;
+    height: 100%;
+}
+.sec2_force_reng1 img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    border-radius: 30px 0px 0px 0px;
+}
+.sec2_force_reng2{
+    width: 50%;
+    height: 100%;
+}
+.sec2_force_reng2 img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    border-radius: 0px 30px 0px 0px;
+}
+.sec2_box2_force{
+    width: 80%;
+    height: 45%;
+    display: flex;
+}
+.sec2_force_reng3{
+    width: 50%;
+    height: 100%;
+}
+.sec2_force_reng3 img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    border-radius: 0px 0px 0px 30px;
+}
+.sec2_force_reng4{
+    width: 50%;
+    height: 100%;
+}
+.sec2_force_reng4 img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    border-radius: 0px 0px 30px 0px;
+}
