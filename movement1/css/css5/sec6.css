@@ -174,3 +174,96 @@
                         0 10px 10px rgba(0, 0, 0, 0.1);
     }
 }
+@media only screen and (max-height:900px) and (min-height:751px) and (max-width:430px){
+    .sec6img5{
+        width: 100%;
+        height: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .sec6img5 img {
+        width: 80%;
+        height: 60%;
+        position: relative;
+    }
+    .sec6_ans15{
+        width: 100%;
+        height: 40%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .sec6_ans15_1{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .sec6_ans15_1 img{
+        width: 90%;
+        height: 90%;
+        border-radius: 30px;
+        position: relative;
+        box-shadow: 0 -10px 10px rgba(255, 255, 255, 0.05),
+                        0 10px 10px rgba(0, 0, 0, 0.1);
+    }
+    .sec6_ans15_2{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .sec6_ans15_2 img{
+        width: 90%;
+        height: 90%;
+        border-radius: 30px;
+        position: relative;
+        box-shadow: 0 -10px 10px rgba(255, 255, 255, 0.05),
+                        0 10px 10px rgba(0, 0, 0, 0.1);
+    }
+    .sec6_ans25{
+        width: 100%;
+        height: 40%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .sec6_ans25_1{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .sec6_ans25_1 img{
+        width: 90%;
+        height: 90%;
+        border-radius: 30px;
+        position: relative;
+        box-shadow: 0 -10px 10px rgba(255, 255, 255, 0.05),
+                        0 10px 10px rgba(0, 0, 0, 0.1);
+    }
+    .sec6_ans25_2{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .sec6_ans25_2 img{
+        width: 90%;
+        height: 90%;
+        border-radius: 30px;
+        position: relative;
+        box-shadow: 0 -10px 10px rgba(255, 255, 255, 0.05),
+                        0 10px 10px rgba(0, 0, 0, 0.1);
+    }
+}

@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ส่วนใหญ่จะใช้เป็นการกำหนดขนาดแบบ % ครับ จะได้เป็นการ responsive ไปในตัว */
+html{
+    scroll-behavior: smooth;
+    font-family: 'Noto Sans Thai', sans-serif;
+}
+body{
+    overflow-x: hidden;
+    background: linear-gradient(255deg,#0098ac,#771794,#c232b6);
+    height: 458rem;
+    justify-content: center;
+
+}
+
+header{
+    width: 100%;
+    height: 4rem;
+}
+
+section {
+    width: 100%;
+    height: 75rem;
+}
+
+
+.Background{
+    position: absolute;
+    z-index: -999;
+    top: 0;
+    opacity: 20%;
+    left: -15%;
+}
+
+.Background img{
+    width: 113%;
+}

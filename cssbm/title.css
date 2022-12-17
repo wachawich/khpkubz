@@ -1,0 +1,79 @@
+.titlePage{
+    width: 50%;
+    height: 10rem;
+    margin-top: 18%;
+    left: 25%;
+    position: relative;
+    border-radius: 30px;
+    background: linear-gradient(55deg,#10e3ff,#cf31ff,#ff2eee);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    z-index: 99;
+    opacity: 0;
+    transition: 0.5s;
+}
+.titlePage.fade{
+    opacity: 1;
+    margin-top: 15%;
+    position: relative;
+    margin-bottom: 3rem;
+}
+.Avartar_title{
+    justify-content: space-between;
+    display: flex;
+    width: 180%;
+    height: 3rem;
+    top: -40%;
+    position: absolute;
+    z-index: 9999;
+}
+.Avartar03 img{
+    position: relative;
+    width: 80%;
+    left: -10%;
+    animation: Avertar02 10s infinite;
+}
+.Avartar04 img{
+    position: relative;
+    width: 100%;
+    left: 20%;
+    animation: Avertar02 10s infinite;
+}
+.Content_title{
+    width: 96%;
+    height: 95%;
+    border-radius: 30px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Noto Sans Thai', sans-serif;
+    color: #ffffff;
+    background: #414141;
+    padding: 1rem;
+    position: relative;
+    z-index: 99999;
+}
+
+.Content_title h1{
+    font-family: 'Noto Sans Thai', sans-serif;
+    margin-bottom: 0.3rem;
+}
+
+.Content_title ul{
+    display: flex;
+    height: 30%;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.Content_title li{
+    font-family: 'Noto Sans Thai', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    cursor: pointer; 
+}
+
+.Content_title li:hover{
+    color: #ffd900;
+}

@@ -1,0 +1,46 @@
+footer{
+    height: 38rem;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.footer_thx{
+    width: 70%;
+    height: 20rem;
+    display: flex;
+}
+
+.thx{
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    justify-content: center;
+}
+.thx h1{
+    color: #fbff00;
+    font-size: 23px;
+    margin-bottom: 2rem;
+    margin-top: 3rem;
+}
+.thx h3{
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.thx_characters{
+    width: 50%;
+    height: 100%;
+}
+.thx_characters div{
+    width: 100%;
+    height: 100%;
+}
+.thx_characters img{
+    left: -80%;
+    top: -35%;
+    position: relative;
+    animation: Avertar02 10s infinite;
+    z-index: -1;
+}

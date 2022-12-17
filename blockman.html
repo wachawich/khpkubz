@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BlockMan World!</title>
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Noto+Sans+Thai&family=Source+Code+Pro:wght@400;700&family=Ubuntu&display=swap" rel="stylesheet">
+
+
+    <!-- For link css -->
+    <link rel="stylesheet" href="cssbm/index.css">
+    <link rel="stylesheet" href="cssbm/nav.css">
+    <link rel="stylesheet" href="cssbm/homepage.css">
+    <link rel="stylesheet" href="cssbm/title.css">
+    <link rel="stylesheet" href="cssbm/movement.css">
+    <link rel="stylesheet" href="cssbm/button.css">
+    <link rel="stylesheet" href="cssbm/gravity.css">
+    <link rel="stylesheet" href="cssbm/thx.css">
+    <link rel="stylesheet" href="cssbm/quiz.css">
+
+    <!-- For JavaScript -->
+    <script src="JSbm/Api.js"></script>
+    <script src="JSbm/app.js"></script>
+
+</head>
+<body>
+        <header>
+            <nav id="navbar">
+                
+                <div id="my_logo">
+                    <!-- fetch api logo on nav -->
+                </div>
+                
+                <ul>
+                    <a href="#1" style="text-decoration: none;"><li>Home</li></a>
+                    <a href="#titlePage" style="text-decoration: none;"><li>Movement</li></a>
+                    <a href="#section3" style="text-decoration: none;"><li>Gravity</li></a>
+                    <a href="#section4" style="text-decoration: none;"><li>Quiz</li></a>
+                </ul>
+
+            </nav>
+        </header>
+        <section id="section1">
+
+<!--homepage--> <div class="HomePage" id="1">
+                    <div class="AvartarBox">
+                        <!-- fetch api cyber guy -->
+                    </div>
+                
+<!-- เนื้อหา -->      <div class="Content_homepage">
+                    
+                        <img class="img1" src="pngbm/Why.png" alt="Error">  <!-- กล่องความรู้แรงโน้มถ่วง -->
+                    
+                        <div class="HellowUser"> <!-- ทักทาย -->
+                            
+                            <h1>Hi <span id="text">Welcome to Blockman World</span> <h1>
+                       
+                            <h3>
+                                &nbsp;&nbsp;&nbsp;
+                                ยินดีต้อนรับเข้าสู่โลกของ <span>Blockman World</span> โลกนี้เป็นโลกสมมุติขึ้นมาจากเกม
+                                <span>Blockman GO</span> โลกแห่งนี้จะเป็นการ<span>ตะลุยกฎฟิสิกส์</span>ต่างๆในแบบ Friendly
+                                ทำให้การท่องโลกฟิสิกส์ไม่น่าเบื่ออีกต่อไป ถ้าพร้อมแล้วไปเริ่มกันเลยครับ
+                            </h3>
+                    
+                        </div>
+
+<!-- เนื้อหา -->      </div>
+            
+<!--homepage--></div>
+            
+            
+<!-- title -->  <div class="titlePage" id="titlePage">
+                    <div class="Avartar_title">
+                        <div class="Avartar03"></div>
+                        <div class="Avartar04"></div>
+                    </div>
+                    <div class="Content_title">
+                        <h1>Concept</h1>
+                        <p>
+                            &nbsp;&nbsp;&nbsp; concept ในการทำผลงานชิ้นนี้ขึ้นมาเพราะว่าเป็นคนที่ชอบฟิสิกส์มากๆแต่อาจจะมีคนที่ยังไม่เข้าใจอยู่บ้าง
+                            ผมเลยทำผลงานชิ้นนี้มาเพื่อให้เห็นภาพของฟิสิกส์ได้มากขึ้น เข้าใจมากขึ้น และทำให้ฟิสิกส์ไม่น่าเบื่อ เรื่องที่ทำมาอาจจะง่าย
+                            แต่ว่าผมเชื่อว่าผลงานชิ้นนี้สามารถนำไปพัฒนาต่อ และทำให้การเรียนรู้ฟิสิกส์ในห้องเรียนสนุกมากขึ้นครับ
+                        </p>
+                    </div>
+                </div>
+
+        </section>      <!-- End section homepage -->
+        
+        <!-- =========================================================================================== -->
+        <!-- start section movement1 -->
+        <section id="section2">
+            
+            <div class="main_movement" id="main_movement">  <!-- กล่องการเคลื่อนที่ -->
+                
+                <div class="text_movement" id="text_movement">  <!-- แนะนำก่อนเริ่ม -->
+                    <h1>การเคลื่อนที่แนวตรง</h1>
+                    
+                    <h3>
+                        หน่วยในบทการเคลื่อนที่แนวตรงหลักๆก็จะมี
+                        <span> S => ระยะทาง การกระจัด , V => ความเร็ว อัตราเร็ว , u => ความเร็วต้น ,  
+                        t => เวลา <br> และ a => ความเร่ง อัตราเร่ง </span>
+                        เพื่อนๆส่วนมากน่าจะได้เรียนกันมาบ้างแล้ว 
+                        วันนี้พี่เลยจะมาพูดถึง<span>ความเร่ง</span>ที่หลายคนยังไม่ค่อยเข้าใจมากนัก  
+                    <br>
+                        เพื่อนๆลองกดปุ่มของแต่ละช่องดูนะครับ
+                    </h3>
+                </div>
+                <!-- -----               ----                 ---                 ----           ----  -->
+                <div class="knowledge1" id="knowledge1">
+                    <h2>
+                        สมมุติว่าเด็กสาวคนนี้กำลัง วิ่ง ด้วย ความเร็ว 2m/s
+                    </h2>
+                    <h4>
+                        เพื่อนๆจะเห็นได้ว่าเด็กสาวคนนี้กำลังวิ่งแบบไปเรื่อยๆไม่เร็วขึ้นไม่ช้าลง <span>แบบนี้เรียกว่า v คงที่ หรือความเร็วคงที่</span> 
+                        <br>ซึ่งการเคลื่อนที่แบบนี้ <span>a หรือ ความเร่งนั้นจะต้องเป็น 0 นั่นเอง</span>
+                    </h4>
+                </div>
+
+                <div class="movement_1" id="movement_1"> <!-- กล่องการเคลื่อนที่กล่องที่1 -->
+                    
+                    <ul class="show_secons"> 
+                        <li>t&nbsp;=&nbsp;0</li>
+                        <li>t&nbsp;=&nbsp;1</li>
+                        <li>t&nbsp;=&nbsp;2</li>
+                        <li>t&nbsp;=&nbsp;3</li>
+                        <li>t&nbsp;=&nbsp;4</li>
+                        <li>t&nbsp;=&nbsp;5</li>
+                        <li>t&nbsp;=&nbsp;6</li>
+                        <li>t&nbsp;=&nbsp;7</li>
+                        <li>t&nbsp;=&nbsp;8</li>
+                    </ul>
+                    
+                    
+                    <div class="show_movement1"></div> <!-- charecter on movement 1 -->
+                    
+                    <div class="btnBox">
+                        <button id="btnShow_movement1"><p>เริ่มเคลื่อนที่เลย</p></button>
+                    </div>
+
+                </div>
+                <!-- -----               ----                 ---                 ----           ----  -->
+                <div class="knowledge2" id="knowledge2">
+                    <h2>
+                        สมมุติว่า  พ่อหนุ่มสเก็ตบอร์ดคนนี้กำลัง เล่นสเก็ต ด้วย ความเร็วต้น 2m/s
+                    </h2>
+                    <h4>
+                        เพื่อนๆจะเห็นได้ว่าพ่อหนุ่มคนนี้ค่อยๆเร็วขึ้นเรื่อยๆ จากความเร็ว 2m/s ผ่านไป 4วินาที ทำไมความเร็วเพิ่มขึ้น? 
+                        <br>ซึ่งเหตุผลก็คือ<span>การเคลื่อนที่นี้มีความเร่ง ก็คือ a > 0 หรือความเร่งมากกว่า 0 </span>จึงทำให้มีความเร็วเพิ่มขึ้นนั่นเอง
+                    </h4>
+                </div>
+
+                <div class="movement_2" id="movement_2"> <!-- กล่องการเคลื่อนที่กล่องที่2 -->
+                    
+                    <ul class="show_secons">
+                        <li>t&nbsp;=&nbsp;0</li>
+                        <li>t&nbsp;=&nbsp;1</li>
+                        <li>t&nbsp;=&nbsp;2</li>
+                        <li>t&nbsp;=&nbsp;3</li>
+                        <li>t&nbsp;=&nbsp;4</li>
+                        
+                    </ul>
+                    
+                    <div class="show_movement2"></div> <!-- charecter on movement 2 -->
+                    
+                    <div class="btnBox">
+                        <button id="btnShow_movement2"><p>เริ่มเคลื่อนที่เลย</p></button>
+                    </div>
+
+                </div>
+                <!-- -----               ----                 ---                 ----           ----  -->
+                <div class="knowledge3" id="knowledge3">
+                    <h2>
+                        สมมุติว่าพ่อหนุ่มคนนี้เคลื่อนที่ด้วยความเร็วคงที่ 2m/s
+                    </h2>
+                    <h4>
+                        แต่เพื่อนๆจะเห็นได้ว่าพ่อหนุ่มคนนี้เคลื่อนที่ด้วยความเร็วคงที่ (a=0 , v คงที่) <span>แต่ในช่วงหนึ่งความเร็วของเขาก็ลดลง</span> 
+                        <br>ซึ่งเป็นเพราะว่า<span>มีความเร่งมาเกี่ยวข้อง</span> แต่เป็นความเร่งที่<span>ติดลบ</span>หรือ a < 0 จึงทำให้ความเร็วลดลงนั่นเอง
+                        <br>หรืออาจจะทำให้การเคลื่อนที่นั้นถอยหลังก็ได้
+                    </h4>
+                </div>
+                
+                <div class="movement_3" id="movement_3">    <!-- กล่องการเคลื่อนที่กล่องที่3 -->
+                    
+                    <ul class="show_secons">
+                        <li>t&nbsp;=&nbsp;6</li>
+                        <li>t&nbsp;=&nbsp;5</li>
+                        <li>t&nbsp;=&nbsp;4</li>
+                        <li>t&nbsp;=&nbsp;3</li>
+                        <li>t&nbsp;=&nbsp;2</li>
+                        <li>t&nbsp;=&nbsp;1</li>
+                        <li>t&nbsp;=&nbsp;0</li>
+                    </ul>
+                    <div class="show_movement3"></div>  <!-- charecter on movement 3 -->
+                    
+                    <div class="btnBox">
+                        <button id="btnShow_movement3"><p>เริ่มเคลื่อนที่เลย</p></button>
+                    </div>
+
+                </div>
+                <!-- -----               ----                 ---                 ----           ----  -->
+                <div class="somegift">
+                    <div class="summarize" id="summarize"><!-- fetch api summarize --></div>
+                    <div class="sumarize_content" id="sumarize_content">
+                        <h1>สรุปก็คือ</h1>
+                        <h3>
+                            เมื่อความเร่งเป็น 0 <span>ความเร็วจะคงที่</span> ไม่ลดไม่เพิ่ม <br>
+                            แต่เมื่อความเร่งมากกว่า 0 จะมี<span>ความเร็วเพิ่มขึ้น</span> <br>
+                            แต่เมื่อความเร่งติดลบจะทำให้<span>ความเร็วลดลง หรือถอยหลัง</span>
+                            <br>
+                            <h4>
+                                สรุปง่ายๆ ความเร่งคือ<span>ความเร็วที่เปลี่ยนไปใน 1 หน่วยวินาที</span>นั่นเอง 
+                            </h4>
+                        </h3>
+                        <div class="gift">
+                            <h3>พี่มีของขวัญให้น้องๆที่ตั้งใจดู กดรับเลยสิ</h3>
+                            <button id="gift">กดรับเลยสิ</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="yourgift">          <!-- ของขวัญ loop api -->
+                    <div class="yourgifts">
+                        <h1>ยินดีด้วยคุณได้รับ!</h1>
+                        <h3>ของขวัญของคนตั้งใจตัวละครสุดพิเศษจากเกม Blockman Go</h3>
+                        <div class="character007">
+                        </div>
+                        <button id="comfirm">ยืนยัน</button>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- =========================================================================================== -->
+        
+        <section id="section3">
+
+            <div class="gravity_main"> <!-- section gravity -->
+
+                <div class="gravity_title" id="gravity_title">
+                    <h1>แรงโน้มถ่วง Gravity</h1>
+                    <h3>
+                        เพื่อนๆคงรู้กันอยู่แล้วว่าโลกนี้มีแรงโน้มถ่วง โดยแรงโน้มถ่วงของโลก(g)มีค่าอยู่ที่ 9.8N <br>จาก Section ที่แล้วเป็นเรื่องการเคลื่อนที่
+                        ใน Section นี้จะมาพูดถึงเรื่องการตกอย่างเสรีกันนะครับ โดยที่เปลี่ยนจากค่า a มาเป็นค่า g แทน ในการอธิบายขอใช้ค่า g เป็น 10 นะครับ
+                    </h3>
+                    <a href="#movedown"><button>เริ่มกันเลย</button></a>
+                </div>
+
+                <div class="gravity_movement"> <!-- bigbox gravity -->
+                        
+<!-- main gravity 1 --> <div class="gravity_box" id="movedown">  <!-- //section main gravity 111 -->
+                            <div class="box_move">
+                                <div class="sec_in_downmove">
+                                    <li></li>
+                                    <li>t&nbsp;=&nbsp;0</li>
+                                    <li>t&nbsp;=&nbsp;1</li>
+                                    <li>t&nbsp;=&nbsp;2</li>
+                                    <li>t&nbsp;=&nbsp;3</li>
+                                    <li>t&nbsp;=&nbsp;4</li>
+                                    <li></li>
+                                    <li></li>
+                                </div>
+                                <div class="main_movedown">
+
+                                </div>
+                                <div class="speed_gravity">
+                                    <li></li>
+                                    <li>u&nbsp;=&nbsp;0m/s</li>
+                                    <li>u&nbsp;=&nbsp;10m/s</li>
+                                    <li>u&nbsp;=&nbsp;20m/s</li>
+                                    <li>u&nbsp;=&nbsp;30m/s</li>
+                                    <li>u&nbsp;=&nbsp;40m/s</li>
+                                    <li></li>
+                                    <li></li>
+                                </div>
+                            </div>
+                            <div class="box_move_content">
+                                <div class="move_content_down" id="move_content">
+                                    <h1>นารูโตะกำลังกระโดดลงจากตึก <br><span>ด้วยความเร็วต้น 0m/s</span></h1>
+                                    <h3>
+                                        จะเห็นได้ว่าทุกๆ 1วินาที นารูโตะจะเคลื่อนที่เร็วขึ้น 10m/s <br>นั่นเป็นเพราะว่าโลกดึงดูดนารูโตะ
+                                        ด้วยแรงโน้มถ่วงที่ g = 10N จึงทำให้ความเร็วเพิ่มขึ้น 10m/s ในทุกๆ 1วินาทีนั่นเอง
+                                    </h3>
+                                    <div class="btngravity_box">
+                                        <button id="move_content_down"><p>เริ่มเคลื่อนที่เลย</p></button>
+                                    </div>
+                                </div>
+                                <div class="gobtn">
+                                    <a href="#moveup"><button>ไปต่อกันเลย</button></a>
+                                </div>
+                            </div>
+                        </div>
+
+<!-- main gravity 2 --> <div class="gravity_box" id="moveup">     <!-- section main gravity 222 -->
+                            <div class="box_move">
+                                <div class="sec_in_downmove">
+                                    <li>t&nbsp;=&nbsp;4</li>
+                                    <li>t&nbsp;=&nbsp;3</li>
+                                    <li>t&nbsp;=&nbsp;2</li>
+                                    <li>t&nbsp;=&nbsp;1</li>
+                                    <li>t&nbsp;=&nbsp;0</li>
+                                    <li></li>
+                                    <li></li>
+                                </div>
+                                <div class="main_moveup">
+                                    
+                                </div>
+                                <div class="speed_gravity">
+                                    <li>u&nbsp;=&nbsp;0m/s</li>
+                                    <li>u&nbsp;=&nbsp;10m/s</li>
+                                    <li>u&nbsp;=&nbsp;20m/s</li>
+                                    <li>u&nbsp;=&nbsp;30m/s</li>
+                                    <li>u&nbsp;=&nbsp;40m/s</li>
+                                    <li></li>
+                                    <li></li>
+                                </div>
+                            </div>
+                            <div class="box_move_content">
+                                <div class="move_content_up" id="move_content">
+                                    <h1>นินจาคนนี้กำลังกระโดดขึ้นไป<br><span>ด้วยความเร็วต้น 40m/s</span></h1>
+                                    <h3>
+                                        จะเห็นได้ว่านินจาคนนี้ค่อยๆช้าลง 10m/s ในทุกๆ 1วินาที<br>นั่นเป็นเพราะว่า
+                                        นินจาคนที่เคลื่อนที่ตรงข้ามกับแรงโน้มถ่วง นั่นคือ g = -10N จึงทำให้ทุกๆ 1วินาที
+                                        นินจาคนนี้ถูกแรงโน้มถ่วงดึงความเร็วของเขาไป จนกระทั่ง ความเร็วเป็น 0 หรือ v = 0 นั่นเอง
+                                    </h3>
+                                    <div class="btngravity_box">
+                                        <button id="move_content_up"><p>เริ่มเคลื่อนที่เลย</p></button>
+                                    </div>
+                                </div>
+                                <div class="gobtn">
+                                    <a href="#moveupdown"><button>ไปต่อกันเลย</button></a>
+                                </div>
+                            </div>
+                        </div>
+
+<!-- main gravity 3 --> <div class="gravity_box" id="moveupdown">           <!-- //section main gravity 333 -->
+                            <div class="box_move">
+                                <div class="sec_in_downmove3">
+                                    <li>t&nbsp;=&nbsp;5<br>v&nbsp;=&nbsp;0m/s</li>
+                                    <li>t&nbsp;=&nbsp;4<br>u&nbsp;=&nbsp;10m/s</li>
+                                    <li>t&nbsp;=&nbsp;3<br>u&nbsp;=&nbsp;20m/s</li>
+                                    <li>t&nbsp;=&nbsp;2<br>u&nbsp;=&nbsp;30m/s</li>
+                                    <li>t&nbsp;=&nbsp;1<br>u&nbsp;=&nbsp;40m/s</li>
+                                    <li></li>
+                                    <li>เริ่มต้น</li>
+                                </div>
+                                <div class="main_moveupdown">
+                                    
+                                </div>
+                                <div class="speed_gravity">
+                                    <li>กำลังตก</li>
+                                    <li>t&nbsp;=&nbsp;6<br>v&nbsp;=&nbsp;10m/s</li>
+                                    <li>t&nbsp;=&nbsp;7<br>v&nbsp;=&nbsp;20m/s</li>
+                                    <li>t&nbsp;=&nbsp;8<br>v&nbsp;=&nbsp;30m/s</li>
+                                    <li>t&nbsp;=&nbsp;9<br>v&nbsp;=&nbsp;40m/s</li>
+                                    <li></li>
+                                    <li></li>
+                                </div>
+                            </div>
+                            <div class="box_move_content">
+                                <div class="move_content_updown" id="move_content">
+                                    <h1>
+                                        ชายนักเวทคนนี้กำลังบินขึ้นไป<br><span>ด้วยความเร็วต้น 40m/s</span>
+                                        และอยู่ๆเขาพลังเวทย์หมดจึงทำให้เขาตกลงมา
+                                    </h1>
+                                    <h3>
+                                        จะเห็นได้ว่าการขึ้นและการตกก็เหมือนใน Section 1 และ 2 
+                                        พอนำมารวมกันก็จะได้เป็นแบบในรูป 
+                                    </h3>
+                                    <div class="btngravity_box">
+                                        <button id="move_content_updown"><p>เริ่มเคลื่อนที่เลย</p></button>
+                                    </div>
+                                    <h3>
+                                            สรุปก็คือค่า g จะคล้ายๆกับค่า a ตรงที่<span>การเปลี่ยนความเร็วทุกๆ 1วินาที </span>
+                                        แต่ความเร่งนั้นไม่ตายตัวเปลี่ยนไปได้เสมอ
+                                        แต่แรงโน้มถ่วงนั้นมีค่าคงที่ จึงทำให้ทุกๆ 1วินาที ความเร็วเปลี่ยนไป 10m/s(9.8m/s)นั่นเอง
+                                    </h3>
+                                </div>
+                                <div class="gobtn">
+                                    <a href="#section4"><button>ไปต่อกันเลย</button></a>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================================================================================ -->
+
+        <section id="section4">
+            <div class="quiz">
+                <div class="quizcss">
+                    <div class="quizactive" id="quizactive1">
+                        <div class="quizter" id="quiz1">
+                            <div class="content_quiz">
+                                <h1>ถ้าไดโนเสาร์มีความเร็วต้นอยู่แล้ว แต่ a = 0 ไดโนเสาร์จะเคลื่อนที่แบบใด</h1>
+                            </div>
+                            <div class="mainquiz" id="mainquiz1"></div>
+                            <div class="answer_quiz" id="answer_quiz1">
+                                <button id="answer1_main1">ไปข้างหน้าแบบคงที่</button>
+                                <button id="answer2_main1">ไปข้างหน้าแบบเร็วขึ้น</button>
+                                <button id="answer3_main1">ไม่เคลื่อนที่</button>
+                                <button id="answer4_main1">ข้อถัดไป</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="quizactive" id="quizactive2">
+                        <div class="quizter" id="quiz2">
+                            <div class="content_quiz">
+                                <h1>ถ้าเด็กน้อยคนนี้วิ่งอยู่แล้วเหนื่อยจึงค่อยๆหยุดวิ่ง ความเร่งจะเป็นยังไง</h1>
+                            </div>
+                            <div class="mainquiz" id="mainquiz2"></div>
+                            <div class="answer_quiz" id="answer_quiz2">
+                                <button id="answer1_main2">a = 1</button>
+                                <button id="answer2_main2">a = 0</button>
+                                <button id="answer3_main2">a < 0</button>
+                                <button id="answer4_main2">ข้อถัดไป</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="quizactive" id="quizactive3">
+                        <div class="quizter" id="quiz3" id="mainquiz1">
+                            <div class="content_quiz">
+                                <h1>นินจาคนนี้มีความเร็ว 20m/s มีความเร่ง 2m/s2 อีก 5วินาทีนินจามีความเร็วเท่าใด</h1>
+                            </div>
+                            <div class="mainquiz" id="mainquiz3"></div>
+                            <div class="answer_quiz" id="answer_quiz3">
+                                <button id="answer1_main3">20m/s</button>
+                                <button id="answer2_main3">30m/s</button>
+                                <button id="answer3_main3">45m/S</button>
+                                <button id="answer4_main3">ข้อถัดไป</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="quizactive" id="quizactive4">
+                        <div class="quizter" id="quiz4">
+                            <div class="content_quiz">
+                                <h1>หมูน้อยความเร่งเป็น 0 และ Bensonไม่มีความเร่ง ใครจะถึงฝั่งขวาก่อนกัน</h1>
+                            </div>
+                            <div class="mainquiz" id="mainquiz4"></div>
+                            <div class="answer_quiz" id="answer_quiz4">
+                                <button id="answer1_main4">ถึงพร้อมกัน</button>
+                                <button id="answer2_main4">Benson</button>
+                                <button id="answer3_main4">หมูน้อย</button>
+                                <button id="answer4_main4">รับรางวัลเลย</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="quizactive" id="quizactive5">
+                        <div class="quizter" id="quiz5">
+                            <div class="content_quiz">
+                                <h1>ยินดีด้วย คุณได้รับตัวละครสุดพิเศษ!</h1>
+                            </div>
+                            <div class="mainquiz" id="mainquiz5"></div>
+                            <div class="answer_quiz">
+                                <a href="#footers"><button>ไปต่อเลย</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- --------------------------------------------------------------------------- -->
+
+        <footer id="footers">
+            <div class="footer_thx">
+                <div class="thx">
+                    <h1>จบแล้วนะครับสำหรับบทเรียนเรื่องการเคลื่อนที่แนวตรง</h1>
+                    <h3>
+                        แน่นอนว่าตอนนี้อาจไม่ใช่ผลงานที่สมบูรณ์ที่สุด แต่ในอนาคตผมจะพัฒนาต่อไปเรื่อยๆ
+                        ผมเชื่อว่าถ้าวิชาฟิสิกส์ได้การเรียนรู้แบบนี้ <br>เด็กจะสนุกกับการเรียน และอยากเรียนมากขึ้นอย่างแน่นอน
+                        <br><br> "Don't stop Learning" "อย่าหยุดที่จะเรียนรู้"
+                        <br> วชิรวิทย์ เปรมไธสง Destiny or Try (โชคชะตาหรือความพยายาม)
+                    </h3>
+                </div>
+                <div class="thx_characters">
+
+                </div>
+            </div>
+        </footer>
+
+        <div class="Background"></div> <!-- fetch api background home page -->
+    
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+<!-- "สักครั้งในชีวิตของเด็กคนนึง การได้รางวัลระดับประเทศคงเป็นอะไรที่ดีมากๆ" -->

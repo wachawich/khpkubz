@@ -14,7 +14,6 @@ body{
 section{
     width: 100%;
     height: 100%;
-    border: 1px solid red;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -28,7 +27,6 @@ section{
     justify-content: center;
     align-items: center;
     font-family: 'Noto Sans Thai', sans-serif;
-    border: 1px solid red;
 }
 .section2{
     width: 80%;
@@ -37,7 +35,6 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid red;
 }
 .section3{
     width: 80%;
@@ -46,7 +43,6 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid red;
 }
 .section4{
     width: 80%;
@@ -55,9 +51,17 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid red;
 }
 @media only screen and (max-width:750px) and (max-width:430px){
+    .section1{
+        width: 90%;
+        height: 50rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Noto Sans Thai', sans-serif;
+    }
     .section2{
         width: 100%;
         height: 60rem;
@@ -66,7 +70,6 @@ section{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        border: 1px solid red;
     }
     .section3{
         width: 100%;
@@ -76,7 +79,6 @@ section{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        border: 1px solid red;
     }
     .section4{
         width: 100%;
@@ -86,6 +88,43 @@ section{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        border: 1px solid red;
+    }
+}
+@media only screen and (max-height:900px) and (min-height:751px) and (max-width:430px){
+    .section1{
+        width: 90%;
+        height: 50rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Noto Sans Thai', sans-serif;
+    }
+    .section2{
+        width: 100%;
+        height: 60rem;
+        font-family: 'Noto Sans Thai', sans-serif;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .section3{
+        width: 100%;
+        height: 60rem;
+        font-family: 'Noto Sans Thai', sans-serif;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .section4{
+        width: 100%;
+        height: 60rem;
+        font-family: 'Noto Sans Thai', sans-serif;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 }

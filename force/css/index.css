@@ -21,9 +21,28 @@ section{
 .container{
     width: 80%;
     height: 80%;
-    border: 1px solid red;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+@media only screen and (max-width:750px) and (max-width:430px){
+    .container{
+        width: 90%;
+        height: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media only screen and (max-height:900px) and (min-height:751px) and (max-width:430px){
+    .container{
+        width: 90%;
+        height: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }

@@ -4,7 +4,6 @@
     width: 100%;
     display: contents;
     font-size: 30px;
-    border: 1px solid red;
     font-family: 'Noto Sans Thai', sans-serif;
 }
 .force_text p{
@@ -17,7 +16,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid red;
 }
 .force_content a{
     text-decoration: none;
@@ -43,4 +41,106 @@
     width: 190%;
     height: 100%;
     position: relative;
+}
+@media only screen and (max-width:750px) and (max-width:430px){
+    .force_text{
+        color: #fff;
+        height: 30%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        font-size: 25px;
+        text-align: center;
+        justify-content: center;
+        font-family: 'Noto Sans Thai', sans-serif;
+    }
+    .force_text p{
+        font-size: 17px;
+        font-family: 'Noto Sans Thai', sans-serif;
+    }
+    .force_content{
+        height: 80%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .force_content a{
+        text-decoration: none;
+        color: #000;
+    }
+    .content_force_card{
+        width: 18rem;
+        height: 12rem;
+        border-radius: 20px;
+        margin: 0px 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: rgb(0, 0, 0);
+        overflow: hidden;
+        background-size: cover;
+        background-color: #fff;
+        font-family: 'Noto Sans Thai', sans-serif;
+        box-shadow: 0 -10px 10px rgba(255, 255, 255, 0.05),
+                    0 10px 10px rgba(0, 0, 0, 0.1);
+    }
+    .content_force_card img{
+        width: 190%;
+        height: 170%;
+        top: 10%;
+        position: relative;
+    }
+}
+@media only screen and (max-height:900px) and (min-height:751px) and (max-width:430px){
+    .force_text{
+        color: #fff;
+        height: 30%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        font-size: 25px;
+        text-align: center;
+        justify-content: center;
+        font-family: 'Noto Sans Thai', sans-serif;
+    }
+    .force_text p{
+        font-size: 17px;
+        font-family: 'Noto Sans Thai', sans-serif;
+    }
+    .force_content{
+        height: 80%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .force_content a{
+        text-decoration: none;
+        color: #000;
+    }
+    .content_force_card{
+        width: 18rem;
+        height: 12rem;
+        border-radius: 20px;
+        margin: 0px 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: rgb(0, 0, 0);
+        overflow: hidden;
+        background-size: cover;
+        background-color: #fff;
+        font-family: 'Noto Sans Thai', sans-serif;
+        box-shadow: 0 -10px 10px rgba(255, 255, 255, 0.05),
+                    0 10px 10px rgba(0, 0, 0, 0.1);
+    }
+    .content_force_card img{
+        width: 190%;
+        height: 170%;
+        top: 10%;
+        position: relative;
+    }
 }

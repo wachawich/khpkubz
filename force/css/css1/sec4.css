@@ -1,40 +1,95 @@
 .sec4_text_force{
-    height: 10%;
+    height: 20%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 .sec4_text_force h1{
     font-size: 30px;
+    color: #ffed46;
+}
+.sec4_text_force h3{
+    font-size: 20px;
     color: #ffffff;
+    font-weight: 400;
 }
 .sec4_box1_force{
+    height: 80%;
     width: 80%;
-    height: 45%;
     display: flex;
-    border: 1px  solid red;
+    justify-content: center;
+    align-items: center;
 }
-.sec4_force_reng1{
-    width: 50%;
+.sec4_box1_force img{
     height: 100%;
+    width: 100%;
+    position: relative;
+    border-radius: 50px;
 }
-.sec4_force_reng2{
-    width: 50%;
-    height: 100%;
-    border: 1px  solid red;
+@media only screen and (max-width:750px) and (max-width:430px){
+    .sec4_text_force{
+        height: 20%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+    .sec4_text_force h1{
+        font-size: 20px;
+        color: #fff127;
+    }
+    .sec4_text_force h3{
+        font-size: 15px;
+        color: #ffffff;
+    }
+    .sec4_box1_force{
+        height: 80%;
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .sec4_box1_force img{
+        height: 100%;
+        width: 100%;
+        position: relative;
+        border-radius: 50px;
+    }
 }
-.sec4_box2_force{
-    width: 80%;
-    height: 45%;
-    display: flex;
-    border: 1px  solid red;
-}
-.sec4_force_reng3{
-    width: 50%;
-    height: 100%;
-}
-.sec4_force_reng4{
-    width: 50%;
-    height: 100%;
-    border: 1px  solid red;
+@media only screen and (max-height:900px) and (min-height:751px) and (max-width:430px){
+    .sec4_text_force{
+        height: 20%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+    .sec4_text_force h1{
+        font-size: 20px;
+        color: #fff127;
+    }
+    .sec4_text_force h3{
+        font-size: 15px;
+        color: #ffffff;
+    }
+    .sec4_box1_force{
+        height: 80%;
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .sec4_box1_force img{
+        height: 100%;
+        width: 100%;
+        position: relative;
+        border-radius: 50px;
+    }
 }

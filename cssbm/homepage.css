@@ -1,0 +1,120 @@
+.HomePage{
+    width: 90%;
+    margin: 0 auto;
+    height: 40rem;
+    display: flex;
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Noto Sans Thai', sans-serif;
+/*     border: 1px solid red; */
+}
+.AvartarBox{
+    width: 40%;
+}
+.AvartarBox img{
+    width: 100%;
+    transform: rotate(-15deg);
+    left: -15%;
+    top: 10%;
+    position: absolute;
+    animation: Avertar02 10s infinite;
+    z-index: 1;
+}
+
+
+@keyframes Avertar02{
+    0%{
+        transform: translateX(-10px);
+        transform: translateY(0px);
+    }
+    25%{
+        transform: translateY(-15px);
+        
+    }
+    50%{
+        transform: translateY(-5px);
+        transform: translateX(-15px);
+    }
+    75%{
+        transform: translateY(-5px);
+    }
+    100%{
+        transform: translateX(0px);
+        transform: translateY(0px);
+    }
+}
+
+
+.Content_homepage{
+    width: 60%;
+}
+.Content_homepage .img1{
+   opacity: 1;
+   width: 35%;
+   margin-left: 15%;
+   margin-top: 10%;
+   left: -65%;
+   animation: ContentHomepage 15s infinite;
+   position: relative;
+   z-index: -9;
+   opacity: 80%;
+}
+
+@keyframes ContentHomepage{
+    0%{
+        transform: translateY(0px);
+        
+    }
+    25%{
+        transform: translateY(5px);
+        
+    
+    }
+    40%{
+        transform: translateY(5px);
+        opacity: 1;
+    }
+    50%{
+        transform: translateY(-5px);
+        opacity: 0;
+    }
+    60%{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+    75%{
+        transform: translateY(5px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+.HellowUser{
+    opacity: 1;
+    width: 60%;
+    margin-left: 15%;
+    margin-top: 10%;
+    position: relative;
+    z-index: -9;
+    top: -30%;
+    left: 10%;
+/*     border: 1px solid red; */
+ }
+
+ .HellowUser h1{
+    color: rgb(255, 217, 0);
+    font-size: 50px;
+ }
+
+ .HellowUser #text{
+    color: #fff;
+    font-size: 30px;
+ }
+
+ .HellowUser h3{
+    color: #fff;
+    font-weight: 300;
+ }
+ .HellowUser h3 span{
+    color: rgb(255, 247, 0);
+ }
